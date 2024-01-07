@@ -13,13 +13,7 @@ window.onload = function() {
         monitor.innerHTML = eval(monitor.innerHTML);
         
     })
-    
-    
-    
-    
-    
-    
-    
+       
     // You can add more JavaScript code here
 };
 
