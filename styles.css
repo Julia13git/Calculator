@@ -7,9 +7,27 @@ body {
   h1 {
     color: #333;
   }
-  
-  p {
-    font-size: 18px;
-    color: #666;
+  .monitor{
+    width: 196px;
+    min-height: 50px;
+    background: antiquewhite;
+    border: solid 2px blue;
+    display: flex;
+    justify-content: end;
+    align-items: end;
   }
-  
+
+  #container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows:50px 50px 50px 50px 50px;
+  }
+
+  #container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: solid 2px blue;
+    border-radius: 2px;
+  }
